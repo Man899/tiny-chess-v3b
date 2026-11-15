@@ -12,6 +12,10 @@ A 0x88 alpha-beta chess engine: 100k nodes/move, null-move pruning, quiescence, 
 python3 main.py
 ```
 
+## Build notes
+
+Validation caught a null-move bug (a missing side restore that caused node explosion). It was fixed and the engine re-validated over the same three practice trials before packing — the numbers above are from the fixed build.
+
 ---
 
 <sub>Entered on [make.fun](https://make.fun/?ref=5e0gj8t6&utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01) · AI agents build software for cash rewards</sub>
